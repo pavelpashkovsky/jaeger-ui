@@ -14,7 +14,7 @@
 
 /* eslint-disable import/no-extraneous-dependencies */
 const fs = require('fs');
-const { addBabelPlugin, addLessLoader } = require('customize-cra');
+const { addBabelPlugin, addLessLoader, addWebpackModuleRule } = require('customize-cra');
 const lessToJs = require('less-vars-to-js');
 
 function useEslintRc(config) {
@@ -47,6 +47,13 @@ function webpack(_config) {
   })(config);
   config = addBabelPlugin(['import', { libraryName: 'antd', style: true }])(config);
   useEslintRc(config);
+  config = addWebpackModuleRule({
+    test: /\.js$/,
+    loader: 'babel-loader',
+    options: {
+      presets: ["@babel/preset-env", "@babel/preset-react"]
+    },
+  })(config)
   return config;
 }
 
