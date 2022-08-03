@@ -1517,12 +1517,10 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@pyroscope/flamegraph@0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@pyroscope/flamegraph/-/flamegraph-0.16.2.tgz#97f5ac90c3dd27a0b3654b520be65ddf75a80d86"
-  integrity sha512-j2SMddjCCHwVGvKXnwl7LH7CDt0uvC2z7BMlxDcpXnwyZXq52aPMQeTQwJeQvy/QFn3oEyz0ctEvHR8i1DskjA==
-  dependencies:
-    "true-myth" "^5.1.2"
+"@pyroscope/flamegraph@0.16.3-1339-6a56541.0":
+  version "0.16.3-1339-6a56541.0"
+  resolved "https://registry.yarnpkg.com/@pyroscope/flamegraph/-/flamegraph-0.16.3-1339-6a56541.0.tgz#f3fa93ce1534d72b60d2c5be4bca8c30fe8b7c0e"
+  integrity sha512-NCy2zYSUjHBp796ByjDKJtcocJifqoozlzhWHmaYzyOagYcDvHxNA4Nzl9rVkpvKvm3UmqhCv3Bzy4TD0IH0Gg==
 
 "@sinonjs/commons@^1", "@sinonjs/commons@^1.0.2", "@sinonjs/commons@^1.4.0":
   version "1.4.0"
@@ -12788,11 +12786,6 @@ trim-off-newlines@^1.0.0:
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
-
-"true-myth@^5.1.2":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/true-myth/-/true-myth-5.4.0.tgz#eff4a4d09e47d616c8089d42c1e78ac9640c68a2"
-  integrity sha512-MonJqkJf+VOXZ2msbpvAI1uJWoyfCN7nirR8/fNK+IlFDWYNLb9iqeAc2uhIbAQBynHtM02azZgepQDQclOwAw==
 
 tryer@^1.0.0:
   version "1.0.1"
